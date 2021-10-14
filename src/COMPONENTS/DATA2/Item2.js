@@ -1,5 +1,5 @@
 import React from 'react'
-import "C:/Users/adi/projectdemo/src/STYLING/Items2.css"
+import "../../STYLING/Items2.css"
 
 
 const Items2=(props)=>{

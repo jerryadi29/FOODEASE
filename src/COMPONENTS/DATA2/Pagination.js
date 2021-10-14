@@ -1,7 +1,8 @@
 import {React,useState} from 'react'
 import Items2 from './Item2'
-import "/Users/adi/projectdemo/src/STYLING/PageNum.css"
-import "C:/Users/adi/projectdemo/src/STYLING/Items2.css"
+import "../../STYLING/PageNum.css"
+import "../../STYLING/Items2.css"
+
 
 const Pagination=(props)=>{
     const {Products}=props

@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import '/Users/adi/projectdemo/src/STYLING/Signin.css'
+import '../STYLING/Signin.css'
 import {useHistory } from "react-router-dom";
 
 

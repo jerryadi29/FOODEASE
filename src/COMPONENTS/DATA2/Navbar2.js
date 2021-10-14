@@ -1,6 +1,6 @@
 import React from 'react'
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
-import 'C:/Users/adi/projectdemo/src/STYLING/Nav.css';
+import '../../STYLING/Nav.css';
 
 function Navbar2(props) {
     return (

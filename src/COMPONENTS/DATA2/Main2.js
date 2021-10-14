@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Navbar2 from '..//DATA2/Navbar2'
+import Navbar2 from '../DATA2/Navbar2'
 
-import "C:/Users/adi/projectdemo/src/STYLING/PageNum.css"
+import "../../STYLING/PageNum.css"
 import Pagination from '../DATA2/Pagination'
 
 

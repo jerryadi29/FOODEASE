@@ -1,5 +1,5 @@
 import React from 'react'
-import 'C:/Users/adi/projectdemo/src/STYLING/home.css'
+import '../STYLING/home.css'
 import { useHistory  } from 'react-router-dom'
 
 
