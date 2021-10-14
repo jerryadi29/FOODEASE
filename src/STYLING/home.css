@@ -1,0 +1,87 @@
+.whole{
+    position: relative;
+    width: 100%;
+    height:880px;    
+}
+
+.back{
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    left: -91px;
+    top: -187px;
+    background: linear-gradient(147.54deg, rgba(248, 48, 48, 0.5) -3.82%, rgba(248, 47, 47, 0.5) 103.46%);
+}
+
+.front h5{
+    
+    background: #E5E5E5;
+    margin-top:100px;
+}
+
+.back h3{
+    position: absolute;
+    width: 290px;
+    height: 59px;
+    left: 600px;
+    top: 138px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 59px;
+
+letter-spacing: 0.205em;
+
+color: rgba(255, 255, 255, 0.65);
+}
+
+.front{
+    text-align: center;
+    position:absolute;
+    width: 352px;
+    height: 565px;
+    left: calc(50% - 352px/2);
+    top: 291px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25), -3px -3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+  } 
+
+.signin{
+    cursor: pointer;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    width: 200.61px;
+    height: 45.64px;
+    background: #FF6468;
+    border-radius: 14px;
+}
+.signin:hover{
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25), -3px -3px 4px rgba(0, 0, 0, 0.25);
+}
+.signup:hover{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253), -3px -3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signup{
+    cursor: pointer;
+    position: absolute;
+    left: 80px;
+    top: 230px;
+    width: 200.61px;
+    height: 45.64px;
+    background: #FF6468;
+    border-radius: 14px;
+}
+.middle{
+    top:200px;
+}
+.mid1{
+    position: absolute;
+    left:500px;
+    top: 0%;
+    background: linear-gradient(0deg, #961B1E 0%, #EC1C24 100%);
+}
