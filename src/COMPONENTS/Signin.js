@@ -7,7 +7,7 @@ import {useHistory } from "react-router-dom";
 const Signin = () => {
 
     let history=useHistory();
-    const [state, setstate] = useState({ 
+    const [detail, setdetail] = useState({ 
         EMAIL:"",
         PASSWORD:""
 
@@ -18,7 +18,7 @@ const Signin = () => {
 const changing=(e)=>{
         const name=e.target.name;
         const value=e.target.value;
-        setstate({...state,[name]:value});
+        setdetail({...detail,[name]:value});
 }
 
 const Submit=()=>{
@@ -44,7 +44,7 @@ const Submit=()=>{
                     <div id="type">
                         <label htmlFor="EMAIL">EMAIL:</label><br/>
                         <input  placeHolder="xyz@gmail.com"type="email"
-                         value={state.EMAIL}
+                         value={detail.EMAIL}
                          onChange={changing}
                         name="EMAIL" id="EMAIL"></input>
                     </div>
@@ -52,7 +52,7 @@ const Submit=()=>{
                     <div id="type">
                         <label htmlFor="PASSWORD">PASSWORD:</label><br/>
                         <input type="text"  type="password" 
-                          value={state.PASSWORD}
+                          value={detail.PASSWORD}
                           onChange={changing}
                         name="PASSWORD" id="PASSWORD"></input>
                     </div>

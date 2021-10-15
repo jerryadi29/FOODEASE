@@ -26,9 +26,9 @@ const Items2=(props)=>{
                     <div>Qty:{Qty}</div>
 
                     <div className="cart-item-actions">
-                    <img onClick={()=>props.Increament(props.item)} className="img"  src="https://img.icons8.com/ios/2x/plus--v2.gif"/>
-                    <img onClick={()=>props.Decreament(props.item)} className="img"  src="https://img.icons8.com/pastel-glyph/2x/minus--v2.gif"/>
-                    <img onClick={()=>props.delete(props.item,props.item.id)} className="img"  src="https://img.icons8.com/ios/2x/delete--v3.gif"/>
+                    <img alt="add" onClick={()=>props.Increament(props.item)} className="img"  src="https://img.icons8.com/ios/2x/plus--v2.gif"/>
+                    <img alt="reduce" onClick={()=>props.Decreament(props.item)} className="img"  src="https://img.icons8.com/pastel-glyph/2x/minus--v2.gif"/>
+                    <img  alt="delete" onClick={()=>props.delete(props.item,props.item.id)} className="img"  src="https://img.icons8.com/ios/2x/delete--v3.gif"/>
                     </div>
                 </div>
 

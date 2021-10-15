@@ -7,7 +7,7 @@ import "../../STYLING/Items2.css"
 const Pagination=(props)=>{
     const {Products}=props
 
-   const [currentPage,setcurrentPage]= useState(1);
+    const [currentPage,setcurrentPage]= useState(1);
    const [itemsPerPage,setitemsPerPage]= useState(5);
    const [limitedProduct,setlimitedProduct]=useState(Products)
     
@@ -21,17 +21,15 @@ const Pagination=(props)=>{
     const pageEvent=(e)=>{
 
 
-       if(e.target.id==1 || e.target.id==2){
+       if(e.target.id==1 || e.target.id==2 || e.target.id==3){
             var items=limitedProduct.length-Number(e.target.id)*itemsPerPage
          if(items>0){
 
-            setlimitedProduct(limitedProduct.slice(0,limitedProduct.length-Number(e.target.id)*itemsPerPage))
+            setlimitedProduct(limitedProduct.slice(0,items))
          }
-         else {
-            items=Products.length
-         }
+        
      
-        // console.log(items)
+        console.log(items)
        }        
       
     }
