@@ -78,6 +78,7 @@ export default class Main2 extends Component {
                 item.Qty+=1
                 
             }
+            return item.Qty
         } )
 
         this.setState({
@@ -95,8 +96,9 @@ export default class Main2 extends Component {
         const id=props.id 
         Products.map( (item)=>{
             if(item.id===id){
-                item.Qty-=1        
+                    item.Qty-=1        
             }
+            return item.Qty
         } )
 
          this.setState({
@@ -115,8 +117,9 @@ export default class Main2 extends Component {
 
         Products.map( (item)=>{
             if(item.id===id){
-                item.Qty=0
+                  item.Qty=0
             }
+            return item.Qty
         } )
 
         this.setState({
@@ -133,6 +136,7 @@ export default class Main2 extends Component {
 
    Products.forEach( (x)=>{
       c=c+x.Qty;
+      return
    } )
 
    return c;

@@ -17,7 +17,7 @@ const Items2=(props)=>{
                
                 <div className="cart-item">
                
-                    <img className="pic" src={img}/>
+                    <img alt={Title} className="pic" src={img}/>
                 </div>
                 <div className='cart-item-middle' >
                     <h2>{Title}</h2>

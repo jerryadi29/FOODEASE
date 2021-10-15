@@ -48,10 +48,10 @@ const Submit=()=>{
                          onChange={changing}
                         name="EMAIL" id="EMAIL"></input>
                     </div>
-                   
                     <div id="type">
+                   
                         <label htmlFor="PASSWORD">PASSWORD:</label><br/>
-                        <input type="text"  type="password" 
+                        <input  type="password" 
                           value={detail.PASSWORD}
                           onChange={changing}
                         name="PASSWORD" id="PASSWORD"></input>

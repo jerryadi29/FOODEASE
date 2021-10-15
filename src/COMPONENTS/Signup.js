@@ -63,7 +63,7 @@ const Submit=()=>{
                          onChange={changing}
                         name="EMAIL" id="EMAIL"></input>
                     </div>
-
+                 
                     <div id="type">
                         <label htmlFor="PHONE">PHONE:</label><br/>
                         <input  placeHolder="0123456789" type="number" 
@@ -71,9 +71,11 @@ const Submit=()=>{
                           onChange={changing}
                         name="PHONE" id="PHONE"></input>
                     </div>
+
                     <div id="type">
+                  
                         <label htmlFor="PASSWORD">PASSWORD:</label><br/>
-                        <input type="text"  type="password" 
+                        <input   type="password" 
                           value={state.PASSWORD}
                           onChange={changing}
                         name="PASSWORD" id="PASSWORD"></input>

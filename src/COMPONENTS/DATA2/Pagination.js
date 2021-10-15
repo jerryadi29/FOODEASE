@@ -7,7 +7,7 @@ import "../../STYLING/Items2.css"
 const Pagination=(props)=>{
     const {Products}=props
 
-    const [currentPage,setcurrentPage]= useState(1);
+    
    const [itemsPerPage,setitemsPerPage]= useState(5);
    const [limitedProduct,setlimitedProduct]=useState(Products)
     
@@ -20,13 +20,16 @@ const Pagination=(props)=>{
       
     const pageEvent=(e)=>{
 
-
-       if(e.target.id==1 || e.target.id==2 || e.target.id==3){
+        //eslint-disable-next-line
+       if(e.target.id==1 || e.target.id==2 || e.target.id==3  || e.target.id==4  || e.target.id==5){
             var items=limitedProduct.length-Number(e.target.id)*itemsPerPage
          if(items>0){
-
             setlimitedProduct(limitedProduct.slice(0,items))
          }
+         
+        else{
+            setitemsPerPage(10)
+        } 
         
      
         console.log(items)
