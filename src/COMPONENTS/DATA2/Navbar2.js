@@ -1,5 +1,5 @@
 import React from 'react'
-import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import { BiCartAlt } from "react-icons/bi";
 import '../../STYLING/Nav.css';
 
 function Navbar2(props) {
@@ -9,7 +9,7 @@ function Navbar2(props) {
 
                 <h3>FOOD EASE </h3>
                 <ul className="Nav-bar">
-                <li><span className="item-count">{props.total}</span><AddShoppingCartIcon  style={{fontSize:80}}className="icon"></AddShoppingCartIcon>
+                <li><span className="item-count">{props.total}</span><BiCartAlt  style={{fontSize:80}}className="icon"></BiCartAlt>
                 
                 </li>
                 </ul>
